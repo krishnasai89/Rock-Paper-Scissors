@@ -24,9 +24,9 @@ let determineWinner = (player, computer) => {
         (player === 'paper✋' && computer === 'rock✊') ||
         (player === 'scissors✌️' && computer === 'paper✋')
     ) {
-        return 'You win!';
+        return 'You win! 🥳';
     } else {
-        return 'You lose!';
+        return 'You lose! 👻';
     }
 }
 
